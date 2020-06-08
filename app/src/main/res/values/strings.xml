@@ -1,9 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Application -->
     <string name="app_name">PaulAdrienDroidPizza</string>
     <string name="welcome_line"> Bienvenu chez Droid Pizza !</string>
+
+    <!-- Pizza -->
+    <string-array name="pizza_array">
+        <item>Royale</item>
+        <item>4 Fromages</item>
+        <item>Napolitaine</item>
+        <item>Margherita</item>
+        <item>Calzone</item>
+    </string-array>
+    <!--
     <string name="pizza_royal">Royale</string>
     <string name="pizza_4_fromages">4 Fromages</string>
     <string name="pizza_napolitaine">Napolitaine</string>
     <string name="pizza_margherita">Margherita</string>
     <string name="pizza_calzone">Calzone</string>
+    -->
+
+    <!-- Form -->
+    <string name="nom">Nom</string>
+    <string name="prenom">Prenom</string>
+    <string name="adresse">Adresse</string>
+    <string name="valider">Valider</string>
+
 </resources>
