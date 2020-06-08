@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PaulAdrienDroidPizza</string>
+    <string name="welcome_line"> Bienvenu chez Droid Pizza !</string>
+    <string name="pizza_royal">Royale</string>
+    <string name="pizza_4_fromages">4 Fromages</string>
+    <string name="pizza_napolitaine">Napolitaine</string>
+    <string name="pizza_margherita">Margherita</string>
+    <string name="pizza_calzone">Calzone</string>
 </resources>
