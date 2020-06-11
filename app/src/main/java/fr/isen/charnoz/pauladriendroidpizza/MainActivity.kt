@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             last_name_textEdit.setText(sharedPref.getString(LAST_NAME_KEY,""))
         }
         //
-        var Btn = findViewById<Button>(R.id.validButton).setOnClickListener {
+        findViewById<Button>(R.id.validButton).setOnClickListener {
             var last_name = findViewById<EditText>(R.id.nom).getText().toString()
             var first_name = findViewById<EditText>(R.id.prenom).getText().toString()
             var adresse = findViewById<EditText>(R.id.adresse).getText().toString()

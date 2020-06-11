@@ -39,14 +39,14 @@ class OrderConfirmation : AppCompatActivity() {
         var nom = sharedPref.getString(LAST_NAME_KEY,"")
 
         //
-        val first_last_name = findViewById<TextView>(R.id.clientFirstLastName).setText(nom + " " + prenom)
-        val time_ordered = findViewById<TextView>(R.id.timeOrdered).setText(time)
-        val place_ordered = findViewById<TextView>(R.id.placeOrdered).setText(adresse)
-        val pizza_ordered = findViewById<TextView>(R.id.pizzaOrdered).setText(pizza)
+        findViewById<TextView>(R.id.clientFirstLastName).setText(nom + " " + prenom)
+        findViewById<TextView>(R.id.timeOrdered).setText(time)
+        findViewById<TextView>(R.id.placeOrdered).setText(adresse)
+        findViewById<TextView>(R.id.pizzaOrdered).setText(pizza)
         //
         Log.v("Confirmation commande","$nom $prenom à commander une pizza $pizza à l'adresse $adresse pour $time")
 
-        var btn = findViewById<Button>(R.id.confMail).setOnClickListener {
+        findViewById<Button>(R.id.confMail).setOnClickListener {
             val emailIntent = Intent(
                 Intent.ACTION_SENDTO, Uri.fromParts(
                     "mailto", "marc.mollinari@gmail.com", null
