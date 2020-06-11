@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/drapeau_italie">
     tools:context=".OrderConfirmation">
 
     <TextView
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="124dp"
         android:layout_marginLeft="124dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="5dp"
         android:text="@string/confOrderTitle"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,6 +27,7 @@
         android:layout_marginLeft="170dp"
         android:layout_marginTop="40dp"
         android:text="oui"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confOrderTitle" />
 
@@ -37,6 +39,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="40dp"
         android:text="@string/orderBy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pizzaOrdered" />
 
@@ -48,6 +51,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="40dp"
         android:text="oui"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintStart_toEndOf="@+id/orderBy"
         app:layout_constraintTop_toBottomOf="@+id/pizzaOrdered" />
 
@@ -59,6 +63,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="30dp"
         android:text="@string/address"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/orderBy" />
 
@@ -70,6 +75,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="30dp"
         android:text="oui"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintStart_toEndOf="@+id/address"
         app:layout_constraintTop_toBottomOf="@+id/orderBy" />
 
@@ -81,6 +87,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="30dp"
         android:text="@string/horaire"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/address" />
 
@@ -92,23 +99,9 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="30dp"
         android:text="oui"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintStart_toEndOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/placeOrdered" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="70dp"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="70dp"
-        android:layout_marginRight="70dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:srcCompat="@drawable/image_r_a_p" />
 
     <Button
         android:id="@+id/confMail"
@@ -119,6 +112,17 @@
         android:layout_marginTop="10dp"
         android:text="@string/confMail"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/image_r_a_ppp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
