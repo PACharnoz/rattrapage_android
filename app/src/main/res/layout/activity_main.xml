@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/drapeau_italie">
 
     <EditText
         android:id="@+id/phone"
@@ -37,7 +38,7 @@
         android:layout_marginTop="10dp"
         android:text="@string/valider"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timePicker1" />
+        app:layout_constraintTop_toBottomOf="@+id/timePicker" />
 
     <EditText
         android:id="@+id/nom"
@@ -80,7 +81,7 @@
 
 
     <TimePicker
-        android:id="@+id/timePicker1"
+        android:id="@+id/timePicker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"

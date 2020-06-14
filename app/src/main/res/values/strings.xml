@@ -3,6 +3,7 @@
     <!-- Application -->
     <string name="app_name">PaulAdrienDroidPizza</string>
     <string name="welcome_line"> Bienvenu chez Droid Pizza !</string>
+    <string name="order_conf">Confirmation de commande</string>
 
     <!-- Pizza -->
     <string-array name="pizza_array">
@@ -25,5 +26,10 @@
     <string name="prenom">Prenom</string>
     <string name="adresse">Adresse</string>
     <string name="valider">Valider</string>
+    <string name="confOrderTitle"><b>CONFIRMATION</b></string>
+    <string name="orderBy"><u>Commander par : </u></string>
+    <string name="address"><u>Au : </u></string>
+    <string name="horaire"><u>Pour : </u></string>
+    <string name="confMail"><b>Envoyer la confirmation par mail</b></string>
 
 </resources>

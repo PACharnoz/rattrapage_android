@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" android:label="@string/welcome_line">
+        <activity android:name=".OrderConfirmation" android:label="@string/order_conf"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/welcome_line">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
